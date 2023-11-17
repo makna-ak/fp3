@@ -1,39 +1,53 @@
 body {
     background-color: #f8f9fa;
     font-family: 'Basic', sans-serif; 
-  }
+}
   
-  .content {
+.content {
     padding: 30px;
     text-align: center; 
-  }
-  
-  h3 {
+}
+
+.about-us-title {
     color: #020E35;
+    font-family: Basic;
     font-size: 40px;
+    font-style: normal;
     font-weight: 400;
     line-height: normal;
-  }
-  
-  p {
+    position: relative;
+    display: inline-block;
+}
+
+.about-us-title::after {
+    content: '';
+    height: 2px;
+    width: 60%;
+    background: #E73587;
+    position: absolute;
+    left: calc(50% - 32%);
+    bottom: 0;
+}
+
+p {
     color: #2B2B2B;
-      text-align: center;
-      font-family: 'Basic', sans-serif;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: normal;
-      max-width: 823px;
-      margin: auto;
-  }
-  
-  hr {
+    text-align: center;
+    font-family: 'Basic', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 823px;
+    margin: auto;
+}
+
+hr {
     background-color: #E73587;
     width: 150px;
     height: 3px;
     margin: 20px auto; 
-  }
-  
-  .card {
+}
+
+.card {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -41,29 +55,29 @@ body {
     flex-direction: column;
     background-color: #fff;
     margin-bottom: 20px;
-  }
-  
-  .card img {
+    }
+
+.card img {
     width: 100%;
     height: auto; 
     border-radius: 8px; 
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.20);
-  }
-  
-  .card-title {
+}
+
+.card-title {
     font-size: 1.5rem;
     margin: 10px 0;
-  }
-  
-  .card-text {
+}
+
+.card-text {
     color: #2B2B2B;
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 15px;
-  }
-  
-  .btn-primary {
+}
+
+.btn-primary {
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
     color: #FFF;
     width: 140px;
@@ -74,35 +88,131 @@ body {
     border: none;
     margin: auto;
     display: block;
-  }
-  
-  /* Responsiveness */
-  @media (max-width: 768px) {
+}
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
     .content {
         padding: 20px;
     }
-  
+
     h3 {
         font-size: 32px;
     }
-  
+
     p {
         font-size: 16px;
         max-width: 100%;
     }
-  
+
     .card {
         padding: 15px;
     }
-  
+
     .card-title {
         font-size: 1.2rem;
     }
-  
+
     .btn-primary {
         width: 120px;
         height: 36px;
         font-size: 10px;
     }
-  }
-  
+}
+
+.our-work {
+    /* height: 2392px; */
+    flex-shrink: 0;
+    background: #020E35;
+    padding-bottom: 50px;
+}
+
+.our-work-section {
+    text-align: center;
+    padding-bottom: 61px;
+}
+
+.our-work-title {
+    color: #FFF;
+    font-family: Basic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    display: inline-block;
+    padding-top: 391px;
+}
+
+.our-work-title::after {
+    content: '';
+    height: 2px;
+    width: 60%;
+    background: #E73587;
+    position: absolute;
+    left: calc(50% - 32%);
+    bottom: 0;
+}
+
+.our-work-card {
+    padding-bottom: 70px;
+}
+
+.card-brand {
+    color: #FFF;
+    font-family: Basic;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.card-device {
+    color: #FFF;
+    font-family: Basic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    padding-bottom: 49px;
+}
+
+.card-description {
+    color: #FFF;
+    font-family: Basic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-ui-bg {
+    max-width: 587px;
+    height: 390px; 
+    justify-content: center;
+    display: flex;
+}
+
+.card-ui {
+    width: 100%;
+}
+
+.button {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Basic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-style: none;
+    margin: auto;
+    display: inherit;
+}
