@@ -1,0 +1,42 @@
+.side-content {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    width: 140px;
+    height: 40px;
+    Top : 4389px;
+    Left : 752px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Basic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-style: none;
+    margin: auto;
+    display: inherit;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px;
+}
+
+.copy {
+    color: #FFF;
+    text-align: left;
+    font-family: Basic;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.footer a {
+    color: #FFF;
+    text-decoration: none;
+}
