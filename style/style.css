@@ -105,3 +105,41 @@ hr {
       font-size: 10px;
   }
 }
+
+.absolute {
+  position: absolute;
+  top: 5px;
+  left: -50px;
+  width: 200px;
+  height: 100px;
+}
+
+/* .circle {
+  position: relative;
+  width: 76px;
+  height: 76px;
+
+}
+
+.circle img {
+  width: 100%; 
+  height: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .circle {
+      position: absolute;
+      top: 0%;
+      right: 0px; 
+      transform: translateY(-50%);
+      width: 50px; 
+      height: 50px; 
+  }
+
+  .circle img {
+      width: 100%; 
+      height: auto; 
+      border-radius: 50%; 
+  }
+} */
